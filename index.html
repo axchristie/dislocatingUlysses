@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta description="Code for this site created with help from fancyBox, Stack Overflow, CSS-Tricks, and lots of coffee.">
+	<title>Dislocating Ulysses</title>
+	
+	<link rel="stylesheet" href="style.css">
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+
+<!-- fancybox -->
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+</script>
+
+</head>
+
+<body>
+
+<div id="nav">
+
+<div style="float: left; padding-left: 50px;">
+<p><a href="#one">Dislocating Ulysses</a></p>
+</div>
+
+<div style="float: right;">
+	<ul>
+		<li><a href="#five">Further Information</a></li>
+		<li><a href="#four">Z-axis Method</a></li>
+		<li><a href="#three">Explore the Map</a></li>
+		<li><a href="#oneone">Scholarly Relevance and Impact</a></li>
+		<li><a href="#two">Project Description</a></li>
+	</ul>
+</div>
+	
+</div>
+
+<div class="wrapper">
+
+<div id="one" class="container first">
+		<p style="text-align: center; margin-top: 10%;">
+		<img src="joyce.png"></p>
+				<h1>Dislocating Ulysses</h1>
+		<p style="text-align: center; color: white; font-size: 24px;">Mapping literary accounts of the modern city in 3D.<br>Explore James Joyce's Dublin as its never been seen before.</p>				
+		<p style="text-align: center; margin-top: 5%;">
+		<a href="#two"><img src="button.png"></a></p>
+
+</div>
+
+<div id="two" class="container" style="background-color: #5CCCCC;">
+	<h1>Project Description</h1>
+
+
+	<p>
+	Dislocating Ulysses is a digital humanities project developed at the University of Victoria for English 507 in the spring of 2013. The project produces a three-dimensional map of Dublin as it is represented in James Joyce’s <i>Ulysses</i>. The 3D map visualizes key areas of the city described in Joyce’s novel, expressing which sections of the city are given significant attention by Joyce and which are ignored. The significance of each area is calculated based on the relative number of words used to describe it in the novel (divided against the total number of words in the novel to produce a significance ratio). Each area described by Joyce is raised according to its relative significance; more significant areas are raised higher than lower ones.
+	</p>	
+	<p>
+	The findings of this project are twofold. First, the project charts a new method for digitizing flat archival objects by transforming them into 3D objects. The 3D map is produced from a 1925 survey map of Dublin housed in special collections at the University of Victoria. Rather than using digitization to reproduce archival holdings as they already exist, this project’s Z-Axis method warps and transforms digitized objects using data mined from literary texts. Doing so reveals the historical and political biases built into the original artifact; in this case, the historical map of Dublin was created as part of an English ordinance survey of its Irish colony. The survey used the mathematical control of geography (through triangulation) as an act of imperialism, used to regulate and manage postcolonial cities. The 3D map both reveals and visually critiques this history by using the computational control of geography to explode the gridded space of the historical map. The warped spaces in the 3D map visually critique the historical mapping practices used to produce the original archival map. Second, the 3D map allows literary scholars to see which sections of Dublin are privileged by Joyce’s novel and which are ignored. Initial findings suggest that Ulysses, a novel purported to represent marginal characters, focuses primarily on wealthy areas of Dublin (ignoring poorer neighborhoods). Exploring which areas of the city are privileged by modernist novels allows scholars to examine the historical, cultural, and political biases of the author. In short, the Z-Axis map lets scholars visualize how modernist novels write the modern city. Further findings will be shared in a publication on the project (currently under review).</p>
+		<p style="text-align: center; margin-top: 5%;">
+		<a href="#oneone"><img src="button.png"></a></p>
+</div>
+
+<div id="oneone" class="containter" style="background-color: white; color: black;">
+<h1 style="color: black;">Scholarly Relevance and Impact</h1>
+<h2>Rationale</h2>
+<p>
+This project was designed for Engl 507 and the <i>Long Now of Ulysses</i> Exhibit that debuted in June 2013 at UVic’s Maltwood Gallery. It asked exhibit attendees to consider a reader’s geotemporal experience of Ulysses. As the many mapping projects based on <i>Ulysses</i> suggest, Joyce’s text is highly mappable and fully immersed in the idea that cartography is a way of knowing (Hegglund 164). Our 3D map differs from those projects by asking how can we use mapping to understand a reader’s experience of the text as opposed to characters’ experience of time and place in the narrative. The project also spurs the following questions: Can we locate a reading experience? Can we assign a temporal value to a reading experience? Can we trace and can we feel the process of reading?
+</p>
+<p>
+As is outlined in the <a href="#four">Z-Axis workflow</a>, we chose to use word count as a way to measure the “time” a hypothetical reader would spend in a given location in <i>Ulysses’</i> Dublin. This, of course, provides a flawed sense of “temporality” given that word length, concept complexity, and as one study suggests, even head tilt (Firth 52), affect the rates at which one reads. We chose to use word count as a fixed measure with the awareness that our methods would only provide one possible representation of the experience of reading <i>Ulysses</i>.
+</p>
+<p>
+This map uses 3D modeling software to represent the reading experience of <i>Ulysses</i> onto the University of Victoria’s archival, 1925 map of Dublin. We chose the 1925 map of Dublin for two reasons. First, it was the map that most closely corresponded to the publication date of the first volume edition of <i>Ulysses</i>. Second, it was also the most detailed archival map of Dublin in the University of Victoria’s Special Collections archive.
+</p>
+<p>
+Though this project was designed for Engl 507 and the <i>Long Now of Ulysses</i> Exhibit, it has since been adopted as a versioning method for the Modernist Versions Project (MVP). The Z-Axis method allowed the MVP to expand how it was able to version texts, ultimately leading the MVP to begin versioning the way modernist texts write modernist city centers. Currently, the MVP is using the Z-Axis method to version the Paris’ of Djuna Barnes’ <i>Nightwood</i> and Jean Rhys’ <i>Good Morning, Midnight</i> and <i>Quartet</i>. Future plans involve versioning London. The project’s expansion to cover other modernist works and other modernist cities shows how the Z-Axis method is rooted, not only in digital humanities research and practice, but in humanities based research as well. The maps produced are argumentative objects that ask for scholarly engagement and interpretation. In other words, the object of the maps is not to make a single argument, but rather to make possible multiple arguments by multiple scholars and to open new lines of critical inquiry into modernist texts and their relationships to place.  
+</p>
+</div>
+
+<div id="onetwo" class="containter" style="background-color: white; color: black;">
+<h2>Why Use Archival Material?</h2>
+<p>
+One of the questions we were concerned with throughout the course was “what can we learn through the remediation of analogue, archival materials through digital manipulation?” Another, related question was “how can we make this process that links the physical archive with digital methods meaningful?” In part, we attempted to address these questions by using digital methods to bring the material out of the archive and into the public sphere of the exhibit. We also attempted to make the archival material new by using the material in our methods of distortion. For example, as opposed to simply photocopying the map, we made a 3D model that would allow people to feel the streets of Dublin in order to engage a new way of knowing the space of Dublin. We added another temporal and spatial layer to the map by using the archival image to locate the text and to raise areas on the map in proportion to the word count (as a measure of the “time” a reader would spend) in the region.
+</p>
+</div>
+
+<div id="onethree" class="containter" style="background-color: white; color: black;">
+<h1 style="color: black;">Literature Review</h1>
+<p>
+Michael Seidel begins his study of <i>Ulysses</i> and geography by noting Kant’s observation that “the human mind appeals to geography for spatial orientation as readily as it appeals to history for temporal orientation” (ix Seidel). This project attempts to unite both the temporal and the geospatial in order to rethink <i>Ulysses</i> in relation to the space of Dublin, the history of Dublin and the objects in the Exhibit, as well as the reader of <i>Ulysses</i>. This section explores how “Dislocating Ulysses” can be understood through the tri-focal lens of digital humanities scholarship, cartographical and non-digital literary scholarship of <i>Ulysses</i>.
+</p>
+<h2><i>Ulysses</i> from a Distance</h2>
+<p>
+Two primary influences of this project, in terms of digital humanities scholarship, are Franco Moretti’s <i>Graphs, Maps, Trees</i> and Galey and Ruecker’s “How a Prototype Argues.” Moretti focuses on the ways distant reading practices can disrupt our ways of understanding texts and hence come to new ways of exploring texts. This form of literary analysis that moves beyond the close reading practices of New Criticism is not, as Moretti points out “an obstacle, but a specific form of knowledge” (Moretti 1). Moretti describes distant reading as a critical practice “in which the reality of the text undergoes a process of deliberate reduction and abstraction” (1). While Moretti’s work focuses on large corpuses of texts, we are employing his notion of “deliberate reduction and abstraction” of the text through our 3D map of <i>Ulysses</i> in order to come to a specific, if not new way considering the text. Engaging with traditional, literary criticisms that highlight the quotidian aspects of <i>Ulysses</i>, the importance of time, and importance of space in the novel, the project seeks to rethink the way the text could be represented in an exhibit space.
+</p>
+<h2>A Tradition of Mapping</h2>
+<p>
+In terms of cartographical criticism, this project builds upon a long tradition of scholars who, as Jon Hegglund notes, “have been all too eager to plot <i>Ulysses</i> onto a map of Dublin” (165).  The history of the cartography of Ulysses is readily accessibly online in analogue formats such as Seidel’s analysis of Joyce’s mapping of the Odyssey onto Ulysses’ Dublin to digital formats ranging from Visit Dublin’s printable PDF titled “Ulysses Map of County Dublin,” which charts Bloom’s journey throughout his day to Boston College’s “Walking Ulysses,” an interactive map that allows users to trace the paths of Stephen Dedalus and Leopold Bloom. The “Dislocating Ulysses” project, through its two components intends, not to duplicate such expert work on cartographical representations of <i>Ulysses</i>’ “‘real-world’ physical space” (Hegglund 164), but rather intends to rethink alternate ways in which the novel and by proxy the <i>Long Now of Ulysses</i> Exhibit can and do engage with time and space.
+</p>
+</div>
+
+<div id="onefour" class="containter" style="background-color: white; color: black;">
+<h2>A Tradition of Literary Criticism</h2>
+<p>
+At the same time the project is rooted in digital humanities works and methodologies, it is also rooted in the literary criticism of scholars such as William Schutte, Jon Hegglund and Declan Kiberd. In his study of cartographical rhetoric in <i>Ulysses</i>, Hegglund makes a point that the very act of mapping within the text is seen as a way of knowing. He writes, “Joyce seems to have been aware of the particular discursive power of the cartography within a larger economy of knowledge, as the relationship between the topographical precision of <i>Ulysses</i> and the rhetoric of cartography is more than coincidental” (Hegglund 164). The project engages in the Joycean tradition of knowing through mapping by disrupting traditional mapping strategies. Z-Axis research disrupts traditional mapping strategies by 1) suggesting that reading experiences can be mapped, visualized, and felt, and 2) suggesting that digital and physical models in fact, as Ruecker argues, make arguments in and of themselves.
+</p>
+<h2>Further Reading</h2>
+<section style="text-align: center;"><a href="http://dislocatingulysses.wordpress.com/">Continue to further explanation of this project's rationale, workflow, reproducibility, and contribution to scholarship.</a></section>
+<h2>Works Cited</h2>
+<ul>
+<li>Firth, Alison et. al. “Tilt and Read Speed.” <i>Journal of American Association for Pediatric Ophthalmology and Strabismus</i>. 11.1 (2007): 52-54.</li>
+<li>Galey, Alan, and Stan Ruecker. "How a Prototype Argues." <i>Literary and Linguistic Computing</i>. 23.3 (2008): 281-293.
+<li>Gifford, Don. <i>Ulysses Annotated</i>. California: University of California Press, 1989.</li>
+<li>Hegglund, Jon. “Ulysses and the Rhetoric of Cartography.” <i>Twentieth Century Literature</i>. 49.2: 2003. 164-192.</li>
+<li>Joyce, James. <i>Ulysses</i>. Paris: Shakespeare and Co., 1922.</li>
+<li>Joyce, James. <i>Ulysses: A Critical and Synoptic Edition</i>. Ed. Hans Gabler, et al. New York: Garland Publishing, 1986.</li>
+<li>Kiberd, Declan. <i>Ulysses and Us: The Art of the Everyday Life in Joyce’s Masterpiece</i>. New York: W.W. Norton & Co., 2009.</li>
+<li>“Map of Dublin 1100-1550.”  <i>Historic Dublin Maps</i>. Compiled by Noel Kissane. Dublin: National Library of Ireland, 1988.</li>
+<li>“Map of Dublin 1876.”  <i>Historic Dublin Maps</i>. Compiled by Noel Kissane. Dublin: National Library of Ireland, 1988.</li>
+<li>“Map of Dublin 1925.”  <i>Historic Dublin Maps</i>. Compiled by Noel Kissane. Dublin: National Library of Ireland, 1988.</li>
+<li>Moretti, Franco. <i>Graphs, Maps, Trees: Abstract Models for a Literary History</i>. New York: Verso, 2005.</li>
+<li>”Ulysses Map.” Visit Dublin. <a href="http://www.visitdublin.com/pdf/ULYSSES-MAP.pdf">http://www.visitdublin.com/pdf/ULYSSES-MAP.pdf</a></li>
+<li>Schutte, William and Erwin R. Steinberg. “The Fictional Technique of Ulysses.” <i>Approaches to Ulysses: Ten Essays</i>. Ed. Thomas Staley and Bernard Benstock. Pennsylvania: University of Pittsburgh Press, 1970.
+<li>Seidel, Michael. <i>Epic Geography: James Joyce’s Ulysses</i>. Princeton UP: 1976.</li>
+
+</ul>
+		<p style="text-align: center; margin-top: 5%;">
+		<a href="#three"><img src="button_alt.png"></a></p>
+</div>
+
+
+<div id="three" class="container" style="background-color: #FF7373;">
+	<h1>Explore the Map</h1>
+	<h2>Click on each image to enlarge</h2>
+
+<br>
+
+<table style="margin-left: auto; margin-right: auto; border-spacing: 40px 10px;">
+<tr>
+<th>
+<a class="fancybox" rel="group" href="assets/RiverCommercial.jpg"><img src="assets/RiverCommercial_thumb.jpg" alt="" /></a>
+</th>
+<th>
+<a class="fancybox" rel="group" href="assets/TrinityCollegeHolles.jpg"><img src="assets/TrinityCollegeHolles_thumb.jpg" alt="" /></a>
+</th>
+<th>
+<a class="fancybox" rel="group" href="assets/Nighttown.jpg"><img src="assets/Nighttown_thumb.jpg" alt="" /></a>
+</th>
+</tr>
+<tr>
+<th>
+View the Riverwalk and the Commercial District
+</th>
+<th>
+View Trinity College Dublin and Holles Street Hospital
+</th>
+<th>
+View the Red Light District (Nighttown)
+</th>
+</tr>
+</table>
+
+<br>
+<br>
+
+<table style="margin-left: auto; margin-right: auto; border-spacing: 40px 10px;">
+<tr>
+<th>
+<a class="fancybox" rel="group" href="assets/Dublin1925.jpg"><img src="assets/Dublin1925_thumb.jpg" alt="" /></a>
+</th>
+<th>
+<iframe frameborder="0" height="187" width="300" allowFullScreen webkitallowfullscreen="true" mozallowfullscreen="true" src="http://sketchfab.com/nj3hgf1d0a?autostart=0&transparent=0&autospin=0&controls=1"></iframe>	
+</th>
+</tr>
+<tr>
+<th>
+View the original 1925 Survey Map<br>(reproduced from UVic Special Collections)
+</th>
+<th>
+<br>Explore a low-resolution sample of 7 Eccles street (Leopold Bloom's home).<br>Google Chrome recommended for viewing.
+</th>
+</tr>
+</table>
+
+
+		<p style="text-align: center; margin-top: 3%;">
+		<a href="#four"><img src="button.png"></a></p>
+</div>
+
+<div id="four" class="container" style="background-color: #D3D3D3;">
+	<h1>Z-axis Method</h1>
+		<p style="position: absolute; left: 0px;">
+		<ul style="font-weight: bold;">The workflow for producing the Z-Axis map is divided into two processes:</ul>
+		<ul>Geo-reference a modernist novel to produce a Z-Axis data model
+			<li>Geolocate the narrative of the novel, determining which spans of text are used to describe each geographic location in the novel.</li>
+			<li>Produce a word count for each geo-referenced span of text. This determines how many words are attributed to each geographic location.</li>
+			<li>Record each episode and its word count in a spreadsheet.</li>
+			<li>Divide the word count for each location by the total number of words in the text to produce a significance ratio.</li>
+			<li><a href="assets/ulyssesdatamodel.xlsx">Download the data model for "Dislocating Ulysses."</a></li></ul>
+		
+		<ul>Express the geo-data and ratio through warping historical maps in 3D
+			<li>Digitize an archival map using a high-quality scanner.</li>
+			<li>Convert the scanned map into a displacement map using image editing software such as Photoshop. This is done by converting the image to grayscale and increasing the image contrast.</li>
+			<li>Apply the displacement map to a subdivided plane using Autodesks's Mudbox 3D modeling software. Scale the plane along its z-axis to express details for the displacement map as changes in elevation.</li>
+			<li>Apply the bulge function for each area indicated by the data model. The significance ratio is multiplied by a factor of 10,000 and used to determine the strength (and therefore, height) of each instance of the bulge function.</li>
+			<li>Verify that the model is watertight and correct any potential errors.</li>
+		</ul>
+		</p>
+
+		<img src="assets/1.png" class="animated" style="position: absolute; width: 40%; height: 40%; right: 5%; top: 15%;">
+		<img src="assets/2.png" class="animated2" style="position: absolute; width: 40%; height: 40%; right: 5%; top: 15%;">
+		<img src="assets/3.png" class="animated3" style="position: absolute; width: 40%; height: 40%; right: 5%; top: 15%;">
+		<img src="assets/4.png" class="animated4" style="position: absolute; width: 40%; height: 40%; right: 5%; top: 15%;">
+
+		<p style="text-align: center; margin-top: -1%;">
+		<a href="#five"><img src="button.png"></a></p>
+</div>
+
+<div id="five" class="container last" style="background-color: white;">
+	<h1 style="color: black;">Further Information</h1>
+	
+	<h2 style="color: black; text-align: center;">Created By</h2>
+		
+		<table style="margin-left: auto; margin-right: auto; border-spacing: 100px 10px;">
+		<th>
+		<a href="http://twitter.com/axchristie"><img src="assets/alex.png"></a>
+		</th>
+		<th>
+		<a href="http://twitter.com/katietani"><img src="assets/katie.png"></a>
+		</th>
+		<tr>
+		<th>
+		Alex Christie
+		</th>
+		<th>
+		Katie Tanigawa
+		</th>
+		</table>
+		
+		<br>
+		<br>
+		<br>
+		
+	<h2 style="color: black; text-align: center;">This project has been presented at the following conferences</h2>
+	<ul>
+		<li>"Humanities Fall on the Z-Axis," Alex Christie.<br>
+		Poster session at Canadian Society for Digital Humanities/Société Canadienne des Humanités Numériques at Congress 2013 (University of Victoria).
+		</li>
+		<li>"Z-Axis Research," Katie Tanigawa.<br>Roundtable, "Modernism and Interdisciplinarity."<br>Modernist Studies Association 15 (University of Sussex).</li>
+		<li>"<a href="http://axchristie.github.io/MSA15/">Modernism in Three Dimensions: Subjective Time and the Everyday Aesthetics of 3D Printing</a>," Alex Christie.<br>Seminar, "Art and Everydayness."<br>Modernist Studies Association 15 (University of Sussex).
+		<li style="font-style: italic;">Web design by Alex Christie</li>
+	</ul>
+
+</div>
+
+</div>
+
+</body>
+
+	<script>
+	$(function() {
+	  $('a[href*=#]:not([href=#])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+	      var target = $(this.hash);
+	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      if (target.length) {
+	        $('html,body').animate({
+	          scrollTop: target.offset().top
+	        }, 1000);
+	        return false;
+	      }
+	    }
+	  });
+	});
+	</script>
+
+<script>	
+$(window).scroll(function () {
+    var y = $(window).scrollTop(),
+        x = $('.animated').offset().top - 400;
+    if (y > x) {
+        $('.animated').addClass('fadeInUp').removeClass('fadeOutDown');
+        $('.animated2').addClass('fadeInUp').removeClass('fadeOutDown');
+        $('.animated3').addClass('fadeInUp').removeClass('fadeOutDown');
+        $('.animated4').addClass('fadeInUp').removeClass('fadeOutDown');        
+    } else {
+        $('.animated').removeClass('fadeInUp').addClass('');
+        $('.animated2').removeClass('fadeInUp').addClass('');
+        $('.animated3').removeClass('fadeInUp').addClass('');
+        $('.animated4').removeClass('fadeInUp').addClass('');                
+    }
+});
+</script>
+	
+</html>
